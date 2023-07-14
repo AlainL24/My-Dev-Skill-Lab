@@ -6,13 +6,14 @@
     <title>Skills</title>
 </head>
 <body>
-<h1>Skills</h1>
-<ul>
-    <% skills.forEach ((skill) => { %
-    <li>
-        <a href="/skills/<%= skill.id %>"><%= skill.name %></a>
-    </li>
-<% }); %>
-</ul>
+    <h1>Skills</h1>
+    <ul>
+        <% skills.forEach((skill) => { %>
+            <li>
+                <a href="/skills/<%= skill.id %>"><%= skill.name %></a>
+            </li>
+        <% }); %>
+    </ul>
+    <a href="/skills/new">Add Skill</a>
 </body>
 </html>
