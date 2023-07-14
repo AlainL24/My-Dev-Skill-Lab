@@ -1,5 +1,6 @@
 const skillModel = require('../models/skill');
 
+
 module.exports = {
     index: (req, res) => {
 
